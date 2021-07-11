@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#ff22f3"
+        android:text="센터"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#03A9F4"
+        android:text="바텀"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#CDDC39"
+        android:text="오른"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#FF5722"
+        android:text="왼"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="#03A9F4"
+        android:text="end"
+        android:textSize="10dp"
+        android:textColor="#ffffff"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="#ffffff"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="#ffffff"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="#009688"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="#009688"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>
