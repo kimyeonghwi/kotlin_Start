@@ -2,6 +2,7 @@ plugins {
     //플러그인을 사용하여 필요한 라이브러리를 사용할때 작성되는 부분이다.
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-android-extensions'
 }
 
 android {
