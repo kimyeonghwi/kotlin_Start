@@ -39,6 +39,7 @@ class Intent1 : AppCompatActivity() {
 //============================== 2번 실습 (암시적인텐트) ======================
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse("http://m.naver.com"))
             startActivity(intent)
+
         }
     }
 
