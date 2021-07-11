@@ -1,24 +1,34 @@
 plugins {
+    //플러그인을 사용하여 필요한 라이브러리를 사용할때 작성되는 부분이다.
     id 'com.android.application'
     id 'kotlin-android'
 }
 
 android {
+    //compileSdkVersion은 우리가 만든 프로그램을 기계어로 변경할때 ( 컴파일 할때) 이 버전 기준으로 컴파일 하겠다.
     compileSdkVersion 30
+    //buildToolsVersion은 우리가 작성한것들을 정리하는것 (예를 들면 주석이나 이런것들을 기계가 필요한것들만 가져감 )
     buildToolsVersion "30.0.3"
 
     defaultConfig {
+        //패키지명 아이디라고 생각하면된다.
         applicationId "com.example.kotlin"
+        //우리가 만든앱을 설치할려면 최소한 기종이 15이상이 되어야한다 라는 의미
         minSdkVersion 23
+        //compileSdkVersion과 같은것
         targetSdkVersion 30
+        //앱을 업데이트하다보면 숫자로 올라감
         versionCode 1
+        //앱을 업데이트하다보면 이름으로 올라감
         versionName "1.0"
-
+        //테스트 코드를 돌릴때 사용 되는것
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
+        //배포할 목적으로 빌드를 하는것
         release {
+            // 딱히 수정할일 없어서 몰라도 된다.
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
@@ -32,6 +42,7 @@ android {
     }
 }
 
+//이 앱에서의 의존성 ( 우리 앱은 이뇨속들의 도움을 받아 사용이 된다라고 생각하면된다 )
 dependencies {
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
